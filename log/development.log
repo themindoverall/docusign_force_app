@@ -1,0 +1,765 @@
+
+
+Started GET "/" for 32.153.65.29 at 2013-11-19 23:11:34 -0500
+Processing by ReceiverController#receive as HTML
+--- !ruby/hash:ActionController::Parameters
+controller: receiver
+action: receive
+
+  Rendered text template (0.0ms)
+Completed 200 OK in 81ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/" for 209.46.117.172 at 2013-11-19 23:18:25 -0500
+
+ActionController::RoutingError (No route matches [POST] "/"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.5ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (26.2ms)
+
+
+Started POST "/" for 209.46.117.172 at 2013-11-19 23:18:26 -0500
+
+ActionController::RoutingError (No route matches [POST] "/"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (23.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (37.2ms)
+
+
+Started POST "/" for 209.46.117.172 at 2013-11-19 23:18:57 -0500
+
+ActionController::RoutingError (No route matches [POST] "/"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (14.0ms)
+
+
+Started POST "/" for 209.46.117.172 at 2013-11-19 23:18:58 -0500
+
+ActionController::RoutingError (No route matches [POST] "/"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (13.8ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:21:19 -0500
+Processing by ReceiverController#receive as HTML
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.0.0) lib/action_controller/metal/request_forgery_protection.rb:163:in `handle_unverified_request'
+  actionpack (4.0.0) lib/action_controller/metal/request_forgery_protection.rb:170:in `handle_unverified_request'
+  actionpack (4.0.0) lib/action_controller/metal/request_forgery_protection.rb:177:in `verify_authenticity_token'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:377:in `_run__750355624962228855__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__91621654288625691__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.7ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:21:20 -0500
+Processing by ReceiverController#receive as HTML
+  Parameters: {"<?xml version"=>"\"1.0\" encoding=\"utf-8\"?><DocuSignEnvelopeInformation xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://www.docusign.net/API/3.0\"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:18:02.873</Sent><Delivered>2013-11-19T20:18:35.6</Delivered><Signed>2013-11-19T20:20:55.173</Signed><DeclineReason xsi:nil=\"true\" /><Status>Completed</Status><RecipientIPAddress>32.153.65.29</RecipientIPAddress><CustomFields /><TabStatuses><TabStatus><TabType>SignHere</TabType><Status>Signed</Status><XPosition>583</XPosition><YPosition>194</YPosition><DocumentID>1</DocumentID><PageNumber>1</PageNumber></TabStatus></TabStatuses><AccountStatus>Active</AccountStatus><EsignAgreementInformation><AccountEsignId>e0927596-f2d1-45fa-8838-b42ff755845a</AccountEsignId><UserEsignId>c07a5dc2-a22e-47a2-912c-dcc83bcc394d</UserEsignId><AgreementDate>2013-11-19T20:18:35.583</AgreementDate></EsignAgreementInformation><RecipientId>32d97b3b-6df4-419b-af3f-71566bf93eeb</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T20:21:18.9953517</TimeGenerated><EnvelopeID>441087ed-5d66-487e-aaed-4dd54282c0a3</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Completed</Status><Created>2013-11-19T20:17:35.153</Created><Sent>2013-11-19T20:18:03.047</Sent><Delivered>2013-11-19T20:18:35.693</Delivered><Signed>2013-11-19T20:20:55.19</Signed><Completed>2013-11-19T20:20:55.19</Completed><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:17:35.153</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 0ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.0.0) lib/action_controller/metal/request_forgery_protection.rb:163:in `handle_unverified_request'
+  actionpack (4.0.0) lib/action_controller/metal/request_forgery_protection.rb:170:in `handle_unverified_request'
+  actionpack (4.0.0) lib/action_controller/metal/request_forgery_protection.rb:177:in `verify_authenticity_token'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:377:in `_run__750355624962228855__process_action__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.0.0) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.0.0) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.0.0) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  activerecord (4.0.0) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.0.0) lib/abstract_controller/base.rb:136:in `process'
+  actionpack (4.0.0) lib/abstract_controller/rendering.rb:44:in `process'
+  actionpack (4.0.0) lib/action_controller/metal.rb:195:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.0.0) lib/action_controller/metal.rb:231:in `block in action'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:48:in `call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.0.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.0.0) lib/action_dispatch/routing/route_set.rb:655:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  activerecord (4.0.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.0.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  activerecord (4.0.0) lib/active_record/migration.rb:369:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:373:in `_run__91621654288625691__call__callbacks'
+  activesupport (4.0.0) lib/active_support/callbacks.rb:80:in `run_callbacks'
+  actionpack (4.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
+
+
+Started GET "/" for 32.153.65.29 at 2013-11-19 23:24:15 -0500
+Processing by ReceiverController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 19ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 32.153.65.29 at 2013-11-19 23:24:17 -0500
+Processing by ReceiverController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:34:44 -0500
+Processing by ReceiverController#receive as HTML
+--- !ruby/hash:ActionController::Parameters
+controller: receiver
+action: receive
+
+Completed 500 Internal Server Error in 15ms
+
+ArgumentError (ArgumentError):
+  app/controllers/receiver_controller.rb:10:in `receive'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.3ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:34:46 -0500
+Processing by ReceiverController#receive as HTML
+  Parameters: {"<?xml version"=>"\"1.0\" encoding=\"utf-8\"?><DocuSignEnvelopeInformation xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://www.docusign.net/API/3.0\"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:34:24.263</Sent><DeclineReason xsi:nil=\"true\" /><Status>Sent</Status><RecipientIPAddress /><CustomFields /><AccountStatus>Active</AccountStatus><RecipientId>7c53b5bd-513a-41bc-8cda-36a28e087dde</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T20:34:44.5585878</TimeGenerated><EnvelopeID>1fe15807-392d-4870-86f8-2e04ecd0d916</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Sent</Status><Created>2013-11-19T20:34:05.513</Created><Sent>2013-11-19T20:34:24.28</Sent><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:34:05.513</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>"}
+--- !ruby/hash:ActionController::Parameters
+<?xml version: '"1.0" encoding="utf-8"?><DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris
+  Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:34:24.263</Sent><DeclineReason
+  xsi:nil="true" /><Status>Sent</Status><RecipientIPAddress /><CustomFields /><AccountStatus>Active</AccountStatus><RecipientId>7c53b5bd-513a-41bc-8cda-36a28e087dde</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T20:34:44.5585878</TimeGenerated><EnvelopeID>1fe15807-392d-4870-86f8-2e04ecd0d916</EnvelopeID><Subject>Please
+  DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Sent</Status><Created>2013-11-19T20:34:05.513</Created><Sent>2013-11-19T20:34:24.28</Sent><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:34:05.513</ACStatusDate><ACHolder>Chris
+  Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash
+  /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName
+  /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>'
+controller: receiver
+action: receive
+
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (ArgumentError):
+  app/controllers/receiver_controller.rb:10:in `receive'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.5ms)
+
+
+Started GET "/" for 32.153.65.29 at 2013-11-19 23:35:56 -0500
+Processing by ReceiverController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (ArgumentError):
+  app/controllers/receiver_controller.rb:4:in `index'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started GET "/" for 32.153.65.29 at 2013-11-19 23:36:12 -0500
+Processing by ReceiverController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (ArgumentError):
+  app/controllers/receiver_controller.rb:4:in `index'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.9ms)
+
+
+Started GET "/" for 32.153.65.29 at 2013-11-19 23:36:14 -0500
+Processing by ReceiverController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ArgumentError (ArgumentError):
+  app/controllers/receiver_controller.rb:4:in `index'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started GET "/" for 32.153.65.29 at 2013-11-19 23:36:17 -0500
+Processing by ReceiverController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+ArgumentError (ArgumentError):
+  app/controllers/receiver_controller.rb:4:in `index'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 32.153.65.29 at 2013-11-19 23:37:32 -0500
+Processing by ReceiverController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (ArgumentError):
+  app/controllers/receiver_controller.rb:8:in `index'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started GET "/" for 32.153.65.29 at 2013-11-19 23:38:03 -0500
+Processing by ReceiverController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 3373ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:38:59 -0500
+Processing by ReceiverController#receive as HTML
+--- !ruby/hash:ActionController::Parameters
+controller: receiver
+action: receive
+
+Completed 500 Internal Server Error in 2943ms
+
+Databasedotcom::SalesForceError (Owner ID: owner cannot be blank):
+  app/controllers/receiver_controller.rb:31:in `receive'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (50.8ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:39:04 -0500
+Processing by ReceiverController#receive as HTML
+  Parameters: {"<?xml version"=>"\"1.0\" encoding=\"utf-8\"?><DocuSignEnvelopeInformation xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://www.docusign.net/API/3.0\"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:34:24.263</Sent><Delivered>2013-11-19T20:38:39</Delivered><DeclineReason xsi:nil=\"true\" /><Status>Delivered</Status><RecipientIPAddress>32.153.65.29</RecipientIPAddress><CustomFields /><AccountStatus>Active</AccountStatus><EsignAgreementInformation><AccountEsignId>e0927596-f2d1-45fa-8838-b42ff755845a</AccountEsignId><UserEsignId>31cf1360-dcb5-4e9b-b5b6-b5766693017b</UserEsignId><AgreementDate>2013-11-19T20:38:39</AgreementDate></EsignAgreementInformation><RecipientId>7c53b5bd-513a-41bc-8cda-36a28e087dde</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T20:38:59.306725</TimeGenerated><EnvelopeID>1fe15807-392d-4870-86f8-2e04ecd0d916</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Delivered</Status><Created>2013-11-19T20:34:05.513</Created><Sent>2013-11-19T20:34:24.28</Sent><Delivered>2013-11-19T20:38:39.06</Delivered><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:34:05.513</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>"}
+--- !ruby/hash:ActionController::Parameters
+<?xml version: '"1.0" encoding="utf-8"?><DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris
+  Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:34:24.263</Sent><Delivered>2013-11-19T20:38:39</Delivered><DeclineReason
+  xsi:nil="true" /><Status>Delivered</Status><RecipientIPAddress>32.153.65.29</RecipientIPAddress><CustomFields
+  /><AccountStatus>Active</AccountStatus><EsignAgreementInformation><AccountEsignId>e0927596-f2d1-45fa-8838-b42ff755845a</AccountEsignId><UserEsignId>31cf1360-dcb5-4e9b-b5b6-b5766693017b</UserEsignId><AgreementDate>2013-11-19T20:38:39</AgreementDate></EsignAgreementInformation><RecipientId>7c53b5bd-513a-41bc-8cda-36a28e087dde</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T20:38:59.306725</TimeGenerated><EnvelopeID>1fe15807-392d-4870-86f8-2e04ecd0d916</EnvelopeID><Subject>Please
+  DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Delivered</Status><Created>2013-11-19T20:34:05.513</Created><Sent>2013-11-19T20:34:24.28</Sent><Delivered>2013-11-19T20:38:39.06</Delivered><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:34:05.513</ACStatusDate><ACHolder>Chris
+  Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash
+  /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName
+  /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>'
+controller: receiver
+action: receive
+
+Completed 500 Internal Server Error in 2234ms
+
+Databasedotcom::SalesForceError (Owner ID: owner cannot be blank):
+  app/controllers/receiver_controller.rb:31:in `receive'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.1ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:39:47 -0500
+Processing by ReceiverController#receive as HTML
+--- !ruby/hash:ActionController::Parameters
+controller: receiver
+action: receive
+
+Completed 500 Internal Server Error in 4212ms
+
+Databasedotcom::SalesForceError (Owner ID: owner cannot be blank):
+  app/controllers/receiver_controller.rb:31:in `receive'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.2ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:39:53 -0500
+Processing by ReceiverController#receive as HTML
+  Parameters: {"<?xml version"=>"\"1.0\" encoding=\"utf-8\"?><DocuSignEnvelopeInformation xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://www.docusign.net/API/3.0\"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:34:24.263</Sent><Delivered>2013-11-19T20:38:39</Delivered><Signed>2013-11-19T20:39:20.993</Signed><DeclineReason xsi:nil=\"true\" /><Status>Completed</Status><RecipientIPAddress>32.153.65.29</RecipientIPAddress><CustomFields /><TabStatuses><TabStatus><TabType>SignHere</TabType><Status>Signed</Status><XPosition>633</XPosition><YPosition>206</YPosition><DocumentID>1</DocumentID><PageNumber>1</PageNumber></TabStatus></TabStatuses><AccountStatus>Active</AccountStatus><EsignAgreementInformation><AccountEsignId>e0927596-f2d1-45fa-8838-b42ff755845a</AccountEsignId><UserEsignId>31cf1360-dcb5-4e9b-b5b6-b5766693017b</UserEsignId><AgreementDate>2013-11-19T20:38:39</AgreementDate></EsignAgreementInformation><RecipientId>7c53b5bd-513a-41bc-8cda-36a28e087dde</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T20:39:46.9329144</TimeGenerated><EnvelopeID>1fe15807-392d-4870-86f8-2e04ecd0d916</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Completed</Status><Created>2013-11-19T20:34:05.513</Created><Sent>2013-11-19T20:34:24.28</Sent><Delivered>2013-11-19T20:38:39.06</Delivered><Signed>2013-11-19T20:39:21.01</Signed><Completed>2013-11-19T20:39:21.01</Completed><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:34:05.513</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>"}
+--- !ruby/hash:ActionController::Parameters
+<?xml version: '"1.0" encoding="utf-8"?><DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris
+  Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:34:24.263</Sent><Delivered>2013-11-19T20:38:39</Delivered><Signed>2013-11-19T20:39:20.993</Signed><DeclineReason
+  xsi:nil="true" /><Status>Completed</Status><RecipientIPAddress>32.153.65.29</RecipientIPAddress><CustomFields
+  /><TabStatuses><TabStatus><TabType>SignHere</TabType><Status>Signed</Status><XPosition>633</XPosition><YPosition>206</YPosition><DocumentID>1</DocumentID><PageNumber>1</PageNumber></TabStatus></TabStatuses><AccountStatus>Active</AccountStatus><EsignAgreementInformation><AccountEsignId>e0927596-f2d1-45fa-8838-b42ff755845a</AccountEsignId><UserEsignId>31cf1360-dcb5-4e9b-b5b6-b5766693017b</UserEsignId><AgreementDate>2013-11-19T20:38:39</AgreementDate></EsignAgreementInformation><RecipientId>7c53b5bd-513a-41bc-8cda-36a28e087dde</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T20:39:46.9329144</TimeGenerated><EnvelopeID>1fe15807-392d-4870-86f8-2e04ecd0d916</EnvelopeID><Subject>Please
+  DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Completed</Status><Created>2013-11-19T20:34:05.513</Created><Sent>2013-11-19T20:34:24.28</Sent><Delivered>2013-11-19T20:38:39.06</Delivered><Signed>2013-11-19T20:39:21.01</Signed><Completed>2013-11-19T20:39:21.01</Completed><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:34:05.513</ACStatusDate><ACHolder>Chris
+  Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash
+  /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName
+  /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>'
+controller: receiver
+action: receive
+
+Completed 500 Internal Server Error in 2249ms
+
+Databasedotcom::SalesForceError (Owner ID: owner cannot be blank):
+  app/controllers/receiver_controller.rb:31:in `receive'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.8ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:41:16 -0500
+Processing by ReceiverController#receive as HTML
+--- !ruby/hash:ActionController::Parameters
+controller: receiver
+action: receive
+
+Completed 500 Internal Server Error in 2811ms
+
+Databasedotcom::SalesForceError (Required fields are missing: [LastName]):
+  app/controllers/receiver_controller.rb:32:in `receive'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:41:20 -0500
+Processing by ReceiverController#receive as HTML
+  Parameters: {"<?xml version"=>"\"1.0\" encoding=\"utf-8\"?><DocuSignEnvelopeInformation xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://www.docusign.net/API/3.0\"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris SSS</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:40:55.837</Sent><DeclineReason xsi:nil=\"true\" /><Status>Sent</Status><RecipientIPAddress /><CustomFields /><AccountStatus>Active</AccountStatus><RecipientId>b20c311d-bcfb-4d00-8984-2d35ca6b8db8</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T20:41:16.2261696</TimeGenerated><EnvelopeID>d74cdcb4-388f-4e8c-8a44-a5f6e4c30462</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Sent</Status><Created>2013-11-19T20:40:35.713</Created><Sent>2013-11-19T20:40:55.867</Sent><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:40:35.713</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>"}
+--- !ruby/hash:ActionController::Parameters
+<?xml version: '"1.0" encoding="utf-8"?><DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris
+  SSS</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:40:55.837</Sent><DeclineReason
+  xsi:nil="true" /><Status>Sent</Status><RecipientIPAddress /><CustomFields /><AccountStatus>Active</AccountStatus><RecipientId>b20c311d-bcfb-4d00-8984-2d35ca6b8db8</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T20:41:16.2261696</TimeGenerated><EnvelopeID>d74cdcb4-388f-4e8c-8a44-a5f6e4c30462</EnvelopeID><Subject>Please
+  DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Sent</Status><Created>2013-11-19T20:40:35.713</Created><Sent>2013-11-19T20:40:55.867</Sent><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:40:35.713</ACStatusDate><ACHolder>Chris
+  Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash
+  /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName
+  /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>'
+controller: receiver
+action: receive
+
+Completed 500 Internal Server Error in 3145ms
+
+Databasedotcom::SalesForceError (Required fields are missing: [LastName]):
+  app/controllers/receiver_controller.rb:32:in `receive'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:45:08 -0500
+Processing by ReceiverController#receive as HTML
+--- !ruby/hash:ActionController::Parameters
+controller: receiver
+action: receive
+
+Completed 500 Internal Server Error in 2796ms
+
+NoMethodError (undefined method `split' for nil:NilClass):
+  app/controllers/receiver_controller.rb:30:in `receive'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.6ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:45:12 -0500
+Processing by ReceiverController#receive as HTML
+  Parameters: {"<?xml version"=>"\"1.0\" encoding=\"utf-8\"?><DocuSignEnvelopeInformation xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://www.docusign.net/API/3.0\"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris SSS</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:40:55.837</Sent><Delivered>2013-11-19T20:44:47.73</Delivered><Signed>2013-11-19T20:45:03.08</Signed><DeclineReason xsi:nil=\"true\" /><Status>Completed</Status><RecipientIPAddress>32.153.65.29</RecipientIPAddress><CustomFields /><TabStatuses><TabStatus><TabType>SignHere</TabType><Status>Signed</Status><XPosition>580</XPosition><YPosition>152</YPosition><DocumentID>1</DocumentID><PageNumber>1</PageNumber></TabStatus></TabStatuses><AccountStatus>Active</AccountStatus><EsignAgreementInformation><AccountEsignId>e0927596-f2d1-45fa-8838-b42ff755845a</AccountEsignId><UserEsignId>871748f2-2c3a-4b52-bb03-ea7046823379</UserEsignId><AgreementDate>2013-11-19T20:44:47.73</AgreementDate></EsignAgreementInformation><RecipientId>b20c311d-bcfb-4d00-8984-2d35ca6b8db8</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T20:45:08.5389879</TimeGenerated><EnvelopeID>d74cdcb4-388f-4e8c-8a44-a5f6e4c30462</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Completed</Status><Created>2013-11-19T20:40:35.713</Created><Sent>2013-11-19T20:40:55.867</Sent><Delivered>2013-11-19T20:44:47.79</Delivered><Signed>2013-11-19T20:45:03.093</Signed><Completed>2013-11-19T20:45:03.093</Completed><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:40:35.713</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>"}
+--- !ruby/hash:ActionController::Parameters
+<?xml version: '"1.0" encoding="utf-8"?><DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris
+  SSS</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:40:55.837</Sent><Delivered>2013-11-19T20:44:47.73</Delivered><Signed>2013-11-19T20:45:03.08</Signed><DeclineReason
+  xsi:nil="true" /><Status>Completed</Status><RecipientIPAddress>32.153.65.29</RecipientIPAddress><CustomFields
+  /><TabStatuses><TabStatus><TabType>SignHere</TabType><Status>Signed</Status><XPosition>580</XPosition><YPosition>152</YPosition><DocumentID>1</DocumentID><PageNumber>1</PageNumber></TabStatus></TabStatuses><AccountStatus>Active</AccountStatus><EsignAgreementInformation><AccountEsignId>e0927596-f2d1-45fa-8838-b42ff755845a</AccountEsignId><UserEsignId>871748f2-2c3a-4b52-bb03-ea7046823379</UserEsignId><AgreementDate>2013-11-19T20:44:47.73</AgreementDate></EsignAgreementInformation><RecipientId>b20c311d-bcfb-4d00-8984-2d35ca6b8db8</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T20:45:08.5389879</TimeGenerated><EnvelopeID>d74cdcb4-388f-4e8c-8a44-a5f6e4c30462</EnvelopeID><Subject>Please
+  DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Completed</Status><Created>2013-11-19T20:40:35.713</Created><Sent>2013-11-19T20:40:55.867</Sent><Delivered>2013-11-19T20:44:47.79</Delivered><Signed>2013-11-19T20:45:03.093</Signed><Completed>2013-11-19T20:45:03.093</Completed><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:40:35.713</ACStatusDate><ACHolder>Chris
+  Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash
+  /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName
+  /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>'
+controller: receiver
+action: receive
+
+Completed 500 Internal Server Error in 948ms
+
+NoMethodError (undefined method `split' for nil:NilClass):
+  app/controllers/receiver_controller.rb:30:in `receive'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.4ms)
+
+
+Started GET "/" for 32.153.65.29 at 2013-11-19 23:45:21 -0500
+Processing by ReceiverController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 1681ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 32.153.65.29 at 2013-11-19 23:46:02 -0500
+Processing by ReceiverController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 1979ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 32.153.65.29 at 2013-11-19 23:46:52 -0500
+Processing by ReceiverController#index as HTML
+  Rendered text template (0.0ms)
+Completed 200 OK in 3888ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:54:45 -0500
+Processing by ReceiverController#receive as HTML
+--- !ruby/hash:ActionController::Parameters
+controller: receiver
+action: receive
+
+Completed 500 Internal Server Error in 37ms
+
+NameError (undefined local variable or method `doc' for #<ReceiverController:0x007fe2d76f6668>):
+  app/controllers/receiver_controller.rb:17:in `receive'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.2ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:54:46 -0500
+Processing by ReceiverController#receive as HTML
+  Parameters: {"<?xml version"=>"\"1.0\" encoding=\"utf-8\"?><DocuSignEnvelopeInformation xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://www.docusign.net/API/3.0\"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:54:24.893</Sent><DeclineReason xsi:nil=\"true\" /><Status>Sent</Status><RecipientIPAddress /><CustomFields /><AccountStatus>Active</AccountStatus><RecipientId>248e923f-1d16-46a6-8998-f52ff748e1ee</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T20:54:44.7448846</TimeGenerated><EnvelopeID>631c0aca-35e6-4ec1-8e79-30b90a0597bb</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Sent</Status><Created>2013-11-19T20:53:47.11</Created><Sent>2013-11-19T20:54:24.91</Sent><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:53:47.11</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>"}
+--- !ruby/hash:ActionController::Parameters
+<?xml version: '"1.0" encoding="utf-8"?><DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris
+  Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:54:24.893</Sent><DeclineReason
+  xsi:nil="true" /><Status>Sent</Status><RecipientIPAddress /><CustomFields /><AccountStatus>Active</AccountStatus><RecipientId>248e923f-1d16-46a6-8998-f52ff748e1ee</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T20:54:44.7448846</TimeGenerated><EnvelopeID>631c0aca-35e6-4ec1-8e79-30b90a0597bb</EnvelopeID><Subject>Please
+  DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Sent</Status><Created>2013-11-19T20:53:47.11</Created><Sent>2013-11-19T20:54:24.91</Sent><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:53:47.11</ACStatusDate><ACHolder>Chris
+  Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash
+  /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName
+  /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>'
+controller: receiver
+action: receive
+
+Completed 500 Internal Server Error in 4ms
+
+NameError (undefined local variable or method `doc' for #<ReceiverController:0x007fe2d3746d60>):
+  app/controllers/receiver_controller.rb:17:in `receive'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.3ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:56:17 -0500
+Processing by ReceiverController#receive as HTML
+<?xml version="1.0" encoding="utf-8"?><DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:54:24.893</Sent><Delivered>2013-11-19T20:55:55.577</Delivered><Signed>2013-11-19T20:56:15.997</Signed><DeclineReason xsi:nil="true" /><Status>Completed</Status><RecipientIPAddress>32.153.65.29</RecipientIPAddress><CustomFields /><TabStatuses><TabStatus><TabType>SignHere</TabType><Status>Signed</Status><XPosition>642</XPosition><YPosition>161</YPosition><DocumentID>1</DocumentID><PageNumber>1</PageNumber></TabStatus></TabStatuses><AccountStatus>Active</AccountStatus><EsignAgreementInformation><AccountEsignId>e0927596-f2d1-45fa-8838-b42ff755845a</AccountEsignId><UserEsignId>851776fa-9097-408e-9292-2d034dd70893</UserEsignId><AgreementDate>2013-11-19T20:55:55.577</AgreementDate></EsignAgreementInformation><RecipientId>248e923f-1d16-46a6-8998-f52ff748e1ee</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T20:56:17.0253954</TimeGenerated><EnvelopeID>631c0aca-35e6-4ec1-8e79-30b90a0597bb</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Completed</Status><Created>2013-11-19T20:53:47.11</Created><Sent>2013-11-19T20:54:24.91</Sent><Delivered>2013-11-19T20:55:55.64</Delivered><Signed>2013-11-19T20:56:16.013</Signed><Completed>2013-11-19T20:56:16.013</Completed><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:53:47.11</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>
+  Rendered text template (0.0ms)
+Completed 200 OK in 19ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:56:38 -0500
+Processing by ReceiverController#receive as HTML
+<?xml version="1.0" encoding="utf-8"?><DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:54:24.893</Sent><Delivered>2013-11-19T20:55:55.577</Delivered><Signed>2013-11-19T20:56:15.997</Signed><DeclineReason xsi:nil="true" /><Status>Completed</Status><RecipientIPAddress>32.153.65.29</RecipientIPAddress><CustomFields /><TabStatuses><TabStatus><TabType>SignHere</TabType><Status>Signed</Status><XPosition>642</XPosition><YPosition>161</YPosition><DocumentID>1</DocumentID><PageNumber>1</PageNumber></TabStatus></TabStatuses><AccountStatus>Active</AccountStatus><EsignAgreementInformation><AccountEsignId>e0927596-f2d1-45fa-8838-b42ff755845a</AccountEsignId><UserEsignId>851776fa-9097-408e-9292-2d034dd70893</UserEsignId><AgreementDate>2013-11-19T20:55:55.577</AgreementDate></EsignAgreementInformation><RecipientId>248e923f-1d16-46a6-8998-f52ff748e1ee</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T20:56:37.8832639</TimeGenerated><EnvelopeID>631c0aca-35e6-4ec1-8e79-30b90a0597bb</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Completed</Status><Created>2013-11-19T20:53:47.11</Created><Sent>2013-11-19T20:54:24.91</Sent><Delivered>2013-11-19T20:55:55.64</Delivered><Signed>2013-11-19T20:56:16.013</Signed><Completed>2013-11-19T20:56:16.013</Completed><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:53:47.11</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-19 23:59:46 -0500
+Processing by ReceiverController#receive as HTML
+<?xml version="1.0" encoding="utf-8"?><DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:59:23.96</Sent><DeclineReason xsi:nil="true" /><Status>Sent</Status><RecipientIPAddress /><CustomFields /><AccountStatus>Active</AccountStatus><RecipientId>cee9acea-7e85-4a40-81c5-b1149d5cdcb7</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T20:59:44.299925</TimeGenerated><EnvelopeID>bdcca42f-d93b-494e-ae65-4842b553c965</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Sent</Status><Created>2013-11-19T20:58:59.077</Created><Sent>2013-11-19T20:59:23.99</Sent><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:58:59.077</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>
+Status: <Status>Sent</Status>, skipping...
+  Rendered text template (0.0ms)
+Completed 200 OK in 27ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-20 00:00:31 -0500
+Processing by ReceiverController#receive as HTML
+<?xml version="1.0" encoding="utf-8"?><DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:59:23.96</Sent><Delivered>2013-11-19T21:00:10.12</Delivered><DeclineReason xsi:nil="true" /><Status>Delivered</Status><RecipientIPAddress>32.153.65.29</RecipientIPAddress><CustomFields /><AccountStatus>Active</AccountStatus><EsignAgreementInformation><AccountEsignId>e0927596-f2d1-45fa-8838-b42ff755845a</AccountEsignId><UserEsignId>8be7d438-043d-4fcc-a149-c5751cf2a3b2</UserEsignId><AgreementDate>2013-11-19T21:00:10.12</AgreementDate></EsignAgreementInformation><RecipientId>cee9acea-7e85-4a40-81c5-b1149d5cdcb7</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T21:00:30.4618781</TimeGenerated><EnvelopeID>bdcca42f-d93b-494e-ae65-4842b553c965</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Delivered</Status><Created>2013-11-19T20:58:59.077</Created><Sent>2013-11-19T20:59:23.99</Sent><Delivered>2013-11-19T21:00:10.183</Delivered><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:58:59.077</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>
+Status: <Status>Delivered</Status>, skipping...
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-20 00:02:20 -0500
+Processing by ReceiverController#receive as HTML
+<?xml version="1.0" encoding="utf-8"?><DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:59:23.96</Sent><Delivered>2013-11-19T21:00:10.12</Delivered><Signed>2013-11-19T21:01:58.46</Signed><DeclineReason xsi:nil="true" /><Status>Completed</Status><RecipientIPAddress>32.153.65.29</RecipientIPAddress><CustomFields /><TabStatuses><TabStatus><TabType>SignHere</TabType><Status>Signed</Status><XPosition>864</XPosition><YPosition>111</YPosition><DocumentID>1</DocumentID><PageNumber>1</PageNumber></TabStatus></TabStatuses><AccountStatus>Active</AccountStatus><EsignAgreementInformation><AccountEsignId>e0927596-f2d1-45fa-8838-b42ff755845a</AccountEsignId><UserEsignId>8be7d438-043d-4fcc-a149-c5751cf2a3b2</UserEsignId><AgreementDate>2013-11-19T21:00:10.12</AgreementDate></EsignAgreementInformation><RecipientId>cee9acea-7e85-4a40-81c5-b1149d5cdcb7</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T21:02:20.0802314</TimeGenerated><EnvelopeID>bdcca42f-d93b-494e-ae65-4842b553c965</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Completed</Status><Created>2013-11-19T20:58:59.077</Created><Sent>2013-11-19T20:59:23.99</Sent><Delivered>2013-11-19T21:00:10.183</Delivered><Signed>2013-11-19T21:01:58.477</Signed><Completed>2013-11-19T21:01:58.477</Completed><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:58:59.077</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>
+Completed 500 Internal Server Error in 2550ms
+
+NoMethodError (undefined method `split' for nil:NilClass):
+  app/controllers/receiver_controller.rb:39:in `receive'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.8ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-20 00:02:24 -0500
+Processing by ReceiverController#receive as HTML
+  Parameters: {"<?xml version"=>"\"1.0\" encoding=\"utf-8\"?><DocuSignEnvelopeInformation xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://www.docusign.net/API/3.0\"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:59:23.96</Sent><Delivered>2013-11-19T21:00:10.12</Delivered><Signed>2013-11-19T21:01:58.46</Signed><DeclineReason xsi:nil=\"true\" /><Status>Completed</Status><RecipientIPAddress>32.153.65.29</RecipientIPAddress><CustomFields /><TabStatuses><TabStatus><TabType>SignHere</TabType><Status>Signed</Status><XPosition>864</XPosition><YPosition>111</YPosition><DocumentID>1</DocumentID><PageNumber>1</PageNumber></TabStatus></TabStatuses><AccountStatus>Active</AccountStatus><EsignAgreementInformation><AccountEsignId>e0927596-f2d1-45fa-8838-b42ff755845a</AccountEsignId><UserEsignId>8be7d438-043d-4fcc-a149-c5751cf2a3b2</UserEsignId><AgreementDate>2013-11-19T21:00:10.12</AgreementDate></EsignAgreementInformation><RecipientId>cee9acea-7e85-4a40-81c5-b1149d5cdcb7</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T21:02:20.0802314</TimeGenerated><EnvelopeID>bdcca42f-d93b-494e-ae65-4842b553c965</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Completed</Status><Created>2013-11-19T20:58:59.077</Created><Sent>2013-11-19T20:59:23.99</Sent><Delivered>2013-11-19T21:00:10.183</Delivered><Signed>2013-11-19T21:01:58.477</Signed><Completed>2013-11-19T21:01:58.477</Completed><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:58:59.077</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>"}
+<?xml version="1.0" encoding="utf-8"?><DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T20:59:23.96</Sent><Delivered>2013-11-19T21:00:10.12</Delivered><Signed>2013-11-19T21:01:58.46</Signed><DeclineReason xsi:nil="true" /><Status>Completed</Status><RecipientIPAddress>32.153.65.29</RecipientIPAddress><CustomFields /><TabStatuses><TabStatus><TabType>SignHere</TabType><Status>Signed</Status><XPosition>864</XPosition><YPosition>111</YPosition><DocumentID>1</DocumentID><PageNumber>1</PageNumber></TabStatus></TabStatuses><AccountStatus>Active</AccountStatus><EsignAgreementInformation><AccountEsignId>e0927596-f2d1-45fa-8838-b42ff755845a</AccountEsignId><UserEsignId>8be7d438-043d-4fcc-a149-c5751cf2a3b2</UserEsignId><AgreementDate>2013-11-19T21:00:10.12</AgreementDate></EsignAgreementInformation><RecipientId>cee9acea-7e85-4a40-81c5-b1149d5cdcb7</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T21:02:20.0802314</TimeGenerated><EnvelopeID>bdcca42f-d93b-494e-ae65-4842b553c965</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Completed</Status><Created>2013-11-19T20:58:59.077</Created><Sent>2013-11-19T20:59:23.99</Sent><Delivered>2013-11-19T21:00:10.183</Delivered><Signed>2013-11-19T21:01:58.477</Signed><Completed>2013-11-19T21:01:58.477</Completed><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T20:58:59.077</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>
+Completed 500 Internal Server Error in 999ms
+
+NoMethodError (undefined method `split' for nil:NilClass):
+  app/controllers/receiver_controller.rb:39:in `receive'
+
+
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/cserino/.rbenv/versions/2.0.0-p195/lib/ruby/gems/2.0.0/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.6ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-20 00:08:05 -0500
+Processing by ReceiverController#receive as HTML
+<?xml version="1.0" encoding="utf-8"?><DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T21:07:38.507</Sent><DeclineReason xsi:nil="true" /><Status>Sent</Status><RecipientIPAddress /><CustomFields /><AccountStatus>Active</AccountStatus><RecipientId>07b5dd39-b081-4d81-9d20-22ebcc373f9f</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T21:08:04.8089656</TimeGenerated><EnvelopeID>63dc0887-42f5-4e66-9f3c-334b82d44883</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Sent</Status><Created>2013-11-19T21:07:18.82</Created><Sent>2013-11-19T21:07:38.54</Sent><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T21:07:18.82</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>
+Status: Sent, skipping...
+  Rendered text template (0.0ms)
+Completed 200 OK in 18ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-20 00:08:55 -0500
+Processing by ReceiverController#receive as HTML
+<?xml version="1.0" encoding="utf-8"?><DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T21:07:38.507</Sent><Delivered>2013-11-19T21:08:34.503</Delivered><DeclineReason xsi:nil="true" /><Status>Delivered</Status><RecipientIPAddress>32.153.65.29</RecipientIPAddress><CustomFields /><AccountStatus>Active</AccountStatus><EsignAgreementInformation><AccountEsignId>e0927596-f2d1-45fa-8838-b42ff755845a</AccountEsignId><UserEsignId>4b19e3d4-b595-4a2a-8f28-2ba1cba06ee0</UserEsignId><AgreementDate>2013-11-19T21:08:34.503</AgreementDate></EsignAgreementInformation><RecipientId>07b5dd39-b081-4d81-9d20-22ebcc373f9f</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T21:08:55.5612958</TimeGenerated><EnvelopeID>63dc0887-42f5-4e66-9f3c-334b82d44883</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Delivered</Status><Created>2013-11-19T21:07:18.82</Created><Sent>2013-11-19T21:07:38.54</Sent><Delivered>2013-11-19T21:08:34.583</Delivered><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T21:07:18.82</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>
+Status: Delivered, skipping...
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/submit" for 209.46.117.172 at 2013-11-20 00:09:26 -0500
+Processing by ReceiverController#receive as HTML
+<?xml version="1.0" encoding="utf-8"?><DocuSignEnvelopeInformation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.docusign.net/API/3.0"><EnvelopeStatus><RecipientStatuses><RecipientStatus><Type>Signer</Type><Email>themindoverall@gmail.com</Email><UserName>Chris Serino</UserName><RoutingOrder>1</RoutingOrder><Sent>2013-11-19T21:07:38.507</Sent><Delivered>2013-11-19T21:08:34.503</Delivered><Signed>2013-11-19T21:08:59.073</Signed><DeclineReason xsi:nil="true" /><Status>Completed</Status><RecipientIPAddress>32.153.65.29</RecipientIPAddress><CustomFields /><TabStatuses><TabStatus><TabType>SignHere</TabType><Status>Signed</Status><XPosition>600</XPosition><YPosition>258</YPosition><DocumentID>1</DocumentID><PageNumber>1</PageNumber></TabStatus></TabStatuses><AccountStatus>Active</AccountStatus><EsignAgreementInformation><AccountEsignId>e0927596-f2d1-45fa-8838-b42ff755845a</AccountEsignId><UserEsignId>4b19e3d4-b595-4a2a-8f28-2ba1cba06ee0</UserEsignId><AgreementDate>2013-11-19T21:08:34.503</AgreementDate></EsignAgreementInformation><RecipientId>07b5dd39-b081-4d81-9d20-22ebcc373f9f</RecipientId></RecipientStatus></RecipientStatuses><TimeGenerated>2013-11-19T21:09:26.1936439</TimeGenerated><EnvelopeID>63dc0887-42f5-4e66-9f3c-334b82d44883</EnvelopeID><Subject>Please DocuSign this document: BlankPDF.pdf</Subject><UserName>Chris Serino</UserName><Email>cserino@amagllc.net</Email><Status>Completed</Status><Created>2013-11-19T21:07:18.82</Created><Sent>2013-11-19T21:07:38.54</Sent><Delivered>2013-11-19T21:08:34.583</Delivered><Signed>2013-11-19T21:08:59.09</Signed><Completed>2013-11-19T21:08:59.09</Completed><ACStatus>Original</ACStatus><ACStatusDate>2013-11-19T21:07:18.82</ACStatusDate><ACHolder>Chris Serino</ACHolder><ACHolderEmail>cserino@amagllc.net</ACHolderEmail><ACHolderLocation>DocuSign</ACHolderLocation><SigningLocation>Online</SigningLocation><SenderIPAddress>32.153.65.29   </SenderIPAddress><EnvelopePDFHash /><CustomFields /><AutoNavigation>true</AutoNavigation><EnvelopeIdStamping>true</EnvelopeIdStamping><AuthoritativeCopy>false</AuthoritativeCopy><DocumentStatuses><DocumentStatus><ID>1</ID><Name>BlankPDF.pdf</Name><TemplateName /><Sequence>1</Sequence></DocumentStatus></DocumentStatuses></EnvelopeStatus></DocuSignEnvelopeInformation>
+003i000000RhN16AAF
+  Rendered text template (0.0ms)
+Completed 200 OK in 4294ms (Views: 0.5ms | ActiveRecord: 0.0ms)
